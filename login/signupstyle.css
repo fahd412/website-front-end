@@ -1,0 +1,139 @@
+@import url(/);
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "poppins,sans-serif";
+}
+.background-image{
+    background: url('/login/images/caravanforest.jpg') no-repeat; 
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.form__boxes{
+    position: relative;
+    width: 400px;
+    height: 550px;
+    border: 2px solid rgba(0, 0, 0, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*the border of the whole sign up*/
+}
+.form__boxes h2{
+    color: palegreen;
+    text-align: center;
+    font-size: 32px;
+    
+}
+.form__boxes .input__boxes{
+    position: relative;
+    margin: 30px; 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.form__boxes .input__boxes input{
+    width: 100;
+    height: 45px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0 20px 0 5px;
+    color: lime;
+    font-size: 16px;
+}
+i{
+    position: absolute;
+    color: dar;
+    top: 13px;
+    right: 0   ;
+
+}
+input::placeholder{
+
+    color: grey;
+
+}
+.btn{
+    color: yellowgreen;
+    background: blue;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, .5);
+}
+.group span a{
+    color: gold;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.group a:focus{
+    color: purple;
+    position: relative;
+
+}
+#result{
+    color: red;
+    font-weight: 600;   
+}
+.popup{
+    display: none;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    height: 330px;
+    color: #000;
+
+
+}
+.popup ion-icon{
+    color: #00ff00;
+    font-size: 50px;
+}
+.popup button{
+    width: 100%;
+    background: #00ff00;
+    padding: 10px 0;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: peachpuff;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow:0 0 0 2px rgba(0, 0, 0,.1);
+}
+.popup a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+    
+
